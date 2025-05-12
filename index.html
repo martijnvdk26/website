@@ -13,6 +13,7 @@
             border-radius: 50%;
             background: #aaa;
             margin: 0 auto;
+            object-fit: cover;
         }
     </style>
 </head>
@@ -44,7 +45,7 @@
 
 <div class="container mt-5" id="about">
   <div class="text-center">
-    <img src="afbeelding_1.jpg" alt="Martijn van der Kooi" class="profile-img"></img>
+    <img src="afbeelding_1.jpg" alt="Martijn van der Kooi" class="profile-img">
     <h2 class="mt-3">Over mij</h2>
     <p>Hoi! Ik ben Martijn, student HBO-ICT. Welkom op mijn 'portfolio.'</p>
   </div>
@@ -52,12 +53,57 @@
 
 <div class="container mt-5" id="experience">
   <h2>Ervaring</h2>
-  <div class="d-flex flex-wrap justify-content-center">
-    <img src="logos/cpp.png" alt="C++ Logo" class="m-3" style="height: 100px;">
-    <img src="logos/csharp.png" alt="C# Logo" class="m-3" style="height: 100px;">
-    <img src="logos/haskell.png" alt="Haskell Logo" class="m-3" style="height: 100px;">
-    <img src="logos/java.png" alt="Java Logo" class="m-3" style="height: 100px;">
-    <img src="logos/python.png" alt="Python Logo" class="m-3" style="height: 100px;">
+  <div class="row row-cols-1 row-cols-md-3 row-cols-lg-5 g-4 justify-content-center">
+    
+    <div class="col">
+      <div class="card h-100 text-center">
+        <img src="logos/cpp.png" alt="C++ Logo" class="card-img-top p-3" style="height: 150px; object-fit: contain;">
+        <div class="card-body">
+          <h5 class="card-title">C++</h5>
+          <p class="card-text">Objectgeoriënteerde programmeertaal met hoge prestaties.</p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="col">
+      <div class="card h-100 text-center">
+        <img src="logos/csharp.png" alt="C# Logo" class="card-img-top p-3" style="height: 150px; object-fit: contain;">
+        <div class="card-body">
+          <h5 class="card-title">C#</h5>
+          <p class="card-text">Moderne, type-safe taal voor .NET-applicaties.</p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="col">
+      <div class="card h-100 text-center">
+        <img src="logos/haskell.png" alt="Haskell Logo" class="card-img-top p-3" style="height: 150px; object-fit: contain;">
+        <div class="card-body">
+          <h5 class="card-title">Haskell</h5>
+          <p class="card-text">Functionele programmeertaal met sterke typering.</p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="col">
+      <div class="card h-100 text-center">
+        <img src="logos/java.png" alt="Java Logo" class="card-img-top p-3" style="height: 150px; object-fit: contain;">
+        <div class="card-body">
+          <h5 class="card-title">Java</h5>
+          <p class="card-text">Veelzijdige, platformonafhankelijke taal.</p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="col">
+      <div class="card h-100 text-center">
+        <img src="logos/python.png" alt="Python Logo" class="card-img-top p-3" style="height: 150px; object-fit: contain;">
+        <div class="card-body">
+          <h5 class="card-title">Python</h5>
+          <p class="card-text">Eenvoudige en krachtige taal voor diverse toepassingen.</p>
+        </div>
+      </div>
+    </div>    
   </div>
 </div>
 
